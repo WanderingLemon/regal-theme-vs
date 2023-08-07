@@ -1,0 +1,24 @@
+{
+  "name": "regal-theme",
+  "displayName": "regal-theme",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.81.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "configurationDefaults": {
+      "editor.semanticHighlighting.enabled": true
+    },
+    "themes": [
+      {
+        "label": "Regal Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Regal Theme-color-theme.json"
+      }
+    ]
+  }
+}
